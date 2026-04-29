@@ -1,0 +1,7 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-04-29
+  Balancing:
+    - Reduce bot energy usage on Arig to 2.5x nominal, down from 5x.
+    - Reduce sand sifting on Arig input costs by half (100 instead of 200).
+    - Buff polishing recipes on Hyarion (ratio of raw to polished goes from 1:5 to 2:5).

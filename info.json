@@ -1,0 +1,12 @@
+{
+  "name": "CF-PP-BalancePatch",
+  "version": "0.1.0",
+  "factorio_version": "2.0",
+  "title": "CF Multiplayer PP Balance Patch",
+  "author": "PietersieliePC",
+  "contact": "https://github.com/Pietersielie/BeltUpgrader",
+  "homepage": "https://github.com/Pietersielie/BeltUpgrader",
+  "description": "Balance patch for cackling fiend's multiplayer multiplanet run.",
+  "dependencies": ["base >= 1.0", "planetaris-arig >= 1.1.0", "planetaris-hyarion >= 1.3.0"],
+  "license": "GNU GPLv3"
+}

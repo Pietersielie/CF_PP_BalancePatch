@@ -1,1 +1,2 @@
-# CF_PP_BalancePatch
+# CF PP Balance Patch
+Small patch with some balancing changes for cackling fiend's multiplayer run with many planets, adapted as we get fed up with overly tedious but enjoyable otherwise planets. This is not meant to be well thought out changes. Nor will it change in a predictable pattern.
