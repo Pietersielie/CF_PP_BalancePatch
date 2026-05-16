@@ -23,6 +23,19 @@ if (mods['planetaris-hyarion']) then
     data.raw.recipe["planetaris-polished-diamond"].results = {{type="item", name="planetaris-polished-diamond", amount=2}}
 end
 
+-- Fix Tellus-Arig connection to not have big asteroids
 if (mods['planetaris-tellus']) then
     data.raw["space-connection"]["arig-tellus"].asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.vulcanus_gleba)
+end
+
+if (mods['linox']) then
+    data.raw.recipe["linox-recipe_rare-earth-refining"].results = {{type="item", name="rare-earth-powder", amount=4}}
+    data.raw.recipe["high-concentration-erbium-solution"].results = {
+        {type = "fluid", name = "high-concentration-erbium-solution", amount = 50},
+        {type = "fluid", name = "waste-water", amount = 250, ignored_by_productivity = 250},
+    }
+    data.raw.recipe["high-concentration-neodymium-solution"].results = {
+        {type = "fluid", name = "high-concentration-neodymium-solution", amount = 50},
+        {type = "fluid", name = "waste-water", amount = 250, ignored_by_productivity = 250},
+    }
 end
