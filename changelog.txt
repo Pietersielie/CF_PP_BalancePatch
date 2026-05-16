@@ -1,12 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2026-05-03
+  Balancing:
+    - Linox – Buff rare earth refining to 25:1, instead of 50:1.
+    - Linox – Buff high concentration recipes of erbium and neodymium to 6:1 instead of 12:1.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2026-05-03
   Balancing:
-    - Remove big asteroids from Arig-Tellus route.
+    - Tellus – Remove big asteroids from Arig-Tellus route.
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0
 Date: 2026-04-29
   Balancing:
-    - Reduce bot energy usage on Arig to 2.5x nominal, down from 5x.
-    - Reduce sand sifting on Arig input costs by half (100 instead of 200).
-    - Buff polishing recipes on Hyarion (ratio of raw to polished goes from 1:5 to 2:5).
+    - Arig – Reduce bot energy usage on Arig to 2.5x nominal, down from 5x.
+    - Arig – Reduce sand sifting on Arig input costs by half (100 instead of 200).
+    - Hyarion – Buff polishing recipes on Hyarion (ratio of raw to polished goes from 1:5 to 2:5).
