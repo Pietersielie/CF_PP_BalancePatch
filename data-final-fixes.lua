@@ -11,6 +11,9 @@ if (mods['planetaris-arig']) then
     data.raw.recipe["planetaris-sand-sifting"].ingredients = {{type = "fluid", name = "planetaris-sand", amount = 100}}
     data.raw.recipe["planetaris-advanced-sand-sifting"].ingredients = {{type = "fluid", name = "planetaris-sand", amount = 100}}
     data.raw.recipe["planetaris-advanced-pure-sand-sifting"].ingredients = {{type = "fluid", name = "planetaris-sand", amount = 100}}
+
+    -- Adjust new plastic recipe surface_properties
+    data.raw.recipe["plastic-bar"].surface_conditions = {{property = "planetaris-dust-concentration", max = 50, min = 0}}
 end
 
 -- Buff Hyarion's polishing recipes to reduce machine and input requirements.
